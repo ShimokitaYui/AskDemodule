@@ -3,9 +3,7 @@
 幅度偏移调制，又称幅移键控、幅度键移（英语：Amplitude-shift keying，ASK）是通过载波的幅度变化来表示数字信号的一种幅度调制方式。在一个ASK系统中，二进制符号1会通过一个固定幅度、固定频率的载波信号来表示。这一载波信号会持续T秒。如果信号的值为1，就会传输载波信号，反之则不会传输载波信号。  
 ## 2ASK调制
 利用表示数字信息的0和1的基带矩阵脉冲与连续的载波相乘,2ASK信号可以表示为:
-$$
-s\left( t \right) =m\left( t \right) \cos \left( \omega _ct+\varphi _c \right) 
-$$
+$$s\left( t \right) =m\left( t \right) \cos \left( \omega _ct+\varphi _c \right) $$
 时域的乘机是频域的卷积,可以得到s(t)的频谱为:
 $$
 s\left( \omega \right) =\frac{1}{2}\left[ M\left( \omega +\omega _c \right) +M\left( \omega -\omega _c \right) \right] 
