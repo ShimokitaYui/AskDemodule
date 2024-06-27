@@ -10,7 +10,7 @@ $$s\left( \omega \right) =\frac{1}{2}\left[ M\left( \omega +\omega _c \right) +M
 ## ASK解调
 ### 相干解调法
 <div align="center">
-    <img src="image.png" alt="Ask相干解调法" />
+    <img src="https://github.com/ShimokitaYui/AskDemodule/blob/main/imagae/image.png" alt="Ask相干解调法" />
 </div>  
 
 假设输入信号为：     
