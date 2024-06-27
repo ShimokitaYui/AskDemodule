@@ -24,3 +24,19 @@ $$m_0\left( t \right) =\frac{1}{2}K_cm\left( t \right) \cos \left[ \left( \omega
 可以看出如果 $\omega_c==\omega$ 则 $m_0==\frac{1}{2}K_cm$ 
 ### 非相干解调法
 非相干解调通过对信号整流之后，进行低通滤波得到包络，在通过判决门限得到输出信号
+## 程序结构
+### Matlab仿真与数据生成
+|文件名|用途|
+|---|---|
+|AskMod.m|生成Ask调制信号，并以.txt的格式输出|
+|AskDemo.m|对Ask调制信号解调的仿真|
+|FilterToCOE.m|将滤波器信息转化为FPGA FirCompiler可以使用的COE文件|
+### FPGA程序
+|文件名|用途|
+|---|---|
+|AskGate.v|生成判决门限|
+|BitSync.v|生成符号同步信息|
+|clktrans.v|双相时钟信号|
+|differpd.v|微分鉴相器|
+|monostable.v|单稳态触发器|
+|controldivfreq.v|控制分频器|
