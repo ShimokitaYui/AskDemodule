@@ -6,7 +6,7 @@
 $$s\left( t \right) =m\left( t \right) \cos \left( \omega _ct+\varphi _c \right) $$
 时域的乘机是频域的卷积,可以得到s(t)的频谱为:
 $$s\left( \omega \right) =\frac{1}{2}\left[ M\left( \omega +\omega _c \right) +M\left( \omega -\omega _c \right) \right] $$
-可以发现$s(\omega)$就是$m(t)$的频域的平移后相加的结果,由于$m(t)$是矩阵脉冲信号,其频谱宽度是无穷的，因此调制后的信号的频谱宽度也是无限的，需要对限制调制信号的频谱防止对其他信号产生干扰。通常采用***升余弦滚降滤波***对信号进行成型滤波。
+可以发现 $s(\omega)$ 就是$m(t)$的频域的平移后相加的结果,由于$m(t)$是矩阵脉冲信号,其频谱宽度是无穷的，因此调制后的信号的频谱宽度也是无限的，需要对限制调制信号的频谱防止对其他信号产生干扰。通常采用***升余弦滚降滤波***对信号进行成型滤波。
 ## ASK解调
 ### 相干解调法
 <div align="center">
